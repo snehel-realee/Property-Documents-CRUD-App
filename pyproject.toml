@@ -1,0 +1,12 @@
+[project]
+name = "property-crud"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "fastapi[standard]>=0.121.0",
+    "psycopg2>=2.9.11",
+    "python-multipart>=0.0.20",
+    "sqlalchemy>=2.0.44",
+]
